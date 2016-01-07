@@ -6,7 +6,7 @@
 
 2. Rxjava 作为EventBus用来替换Volley的Delivery分发器，但并未去掉。
 
-3. 使用了Okhtto来处理网络请求，volley用来管理。
+3. 使用了Okhtto来处理网络请求，可以处理文件下载，volley用来管理。
 
 4. 使用Rxjava onError分发回调异常。
 
