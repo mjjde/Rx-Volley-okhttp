@@ -16,6 +16,9 @@
 
 ####  基本用法
 
+
+       OkVolley.getInstance().init(this);
+
        public void test(String url) {
         new BaseRequest (Request.Method.GET, url, null, null)
                 .getResult()
