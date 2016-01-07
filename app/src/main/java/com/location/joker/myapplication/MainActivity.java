@@ -26,6 +26,7 @@ public class MainActivity extends Activity {
                 test();
             }
         });
+        Log.e("Joker", "Hello");
     }
 
     public void test() {
